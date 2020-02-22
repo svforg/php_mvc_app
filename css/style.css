@@ -1,3 +1,22 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-image: url(../img/space-report.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table-block {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.table-cell-block {
+    width: 100%;
+}
+.login-title_main-page {
+    color: #FFF!important;
+}
 .form-signin
 {
     max-width: 330px;

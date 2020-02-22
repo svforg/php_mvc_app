@@ -16,8 +16,8 @@ class Routes {
 
 		/****Определяем контроллер****/
 		if ( $route[1] != '' ) {
-			$controllerName = usfirst($route[1] . "Controller"); // IndexController.php
-			$modelName = usfirst($route[1] . "Model"); 			 // IndexModel.php
+			$controllerName = ucfirst($route[1] . "Controller"); // IndexController.php
+			$modelName = ucfirst($route[1] . "Model"); 			 // IndexModel.php
 		}
 
 		include CONTROLLER_PATH . $controllerName . ".php";
